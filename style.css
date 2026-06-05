@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: Arial;
+    color: #333333;
+    line-height: 2;
+    padding: 20px;
+}
+
+header{
+    background-color: rgb(202, 118, 118);
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h3{
+    color: rgb(202, 118, 118);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+th{
+    background-color: rgb(202, 118, 118);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 500px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    width: 220px;
+    height: 55px;
+    font-size: 20px;
+    background-color: #c97878;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b86565;
+}
