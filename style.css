@@ -1,19 +1,18 @@
-
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: rgb(245, 245, 245);
-    font-family: Arial;
-    color: #333333;
+    background-color: #0b0f19;
+    font-family: Arial, sans-serif;
+    color: #e6eefc;
     line-height: 2;
     padding: 20px;
 }
 
 header{
-    background-color: rgb(202, 118, 118);
+    background: linear-gradient(90deg, #0d47a1, #000000);
     padding: 20px;
     text-align: center;
 }
@@ -24,36 +23,44 @@ h1{
     text-transform: uppercase;
 }
 
+h2{
+    color: #90caf9;
+}
+
+h3{
+    color: #64b5f6;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
 nav a{
-    color: white;
+    color: #90caf9;
     text-decoration: none;
     font-size: 18px;
     margin: 10px;
 }
 
-section{
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
+nav a:hover{
+    color: white;
 }
 
-h3{
-    color: rgb(202, 118, 118);
-    font-size: 28px;
-    margin-bottom: 15px;
+section{
+    background-color: #121826;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #1e88e5;
+    border-radius: 10px;
 }
 
 table{
     width: 100%;
-    background-color: white;
-    border: 2px solid black;
+    background-color: #121826;
+    border: 2px solid #1e88e5;
     margin-top: 10px;
 }
 
 th{
-    background-color: rgb(202, 118, 118);
+    background-color: #1565c0;
     color: white;
     padding: 10px;
     font-weight: bold;
@@ -62,12 +69,12 @@ th{
 td{
     padding: 10px;
     text-align: center;
+    color: #e6eefc;
 }
 
 a{
-    color: blue;
+    color: #64b5f6;
     text-decoration: none;
-    font-weight: bold;
 }
 
 a:hover{
@@ -75,48 +82,30 @@ a:hover{
 }
 
 hr{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-section {
-    padding: 30px;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-label {
-    font-size: 25px;
+    margin: 20px 0;
+    border: 1px solid #1e88e5;
 }
 
 input[type="text"],
-input[type="email"] {
-    width: 500px;
-    height: 50px;
-    font-size: 20px;
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-textarea {
-    width: 500px;
-    font-size: 20px;
+input[type="email"],
+textarea{
+    width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    background-color: #0b0f19;
+    color: white;
+    border: 1px solid #1e88e5;
+    border-radius: 5px;
 }
 
-input[type="submit"] {
-    width: 220px;
-    height: 55px;
-    font-size: 20px;
-    background-color: #c97878;
+input[type="submit"]{
+    background-color: #1565c0;
     color: white;
     border: none;
-    border-radius: 8px;
+    padding: 12px 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #b86565;
+input[type="submit"]:hover{
+    background-color: #0d47a1;
 }
